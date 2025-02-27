@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Team</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>1629X</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showContent('robot')">Our Robot</a></li>
+                <li><a href="#" onclick="showContent('about')">About Us</a></li>
+                <li><a href="#" onclick="showContent('gallery')">Gallery</a></li>
+                <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+                <li><a href="#" onclick="showContent('sponsors')">Sponsors</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="robot" class="content-section">
+            <h2>Our Robot</h2>
+            <p>Meet our latest robot, designed to excel in this year's competition. </p>
+            <a href="docs/example.pdf" target="_blank">View the Notebook</a>
+        </section>
+        <section id="about" class="content-section" style="display:none;">
+            <h2>About Us</h2>
+            <p>Information about the team, history, and members.</p>
+        </section>
+        <section id="gallery" class="content-section" style="display:none;">
+            <h2>Gallery</h2>
+            <p>Photos and videos from events and projects.</p>
+        </section>
+        <section id="contact" class="content-section" style="display:none;">
+            <h2>Contact</h2>
+            <p>Contact form and social media links.</p>
+        </section>
+        <section id="sponsors" class="content-section" style="display:none;">
+            <h2>Sponsors</h2>
+            <p>Acknowledgment of sponsors and partners.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 1629X Robotics Team. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
